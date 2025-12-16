@@ -10,14 +10,17 @@
 
 */
 body{
-    background-color: grey;
+    background-image: url(https://preview.redd.it/bnef3fhuqm261.png?auto=webp&s=9fe888e3e4edde0ee89e8f252c598145ebd324bf);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .FDS {
     height: 600px;
     width: 300px;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     margin: auto;
+    border-radius: 15px;
 
 }
 
@@ -37,7 +40,7 @@ body{
 .palo{
     height: 120px;
     width: 30px;
-    background-color: black;
+    background-color: rgb(41, 41, 41);
     margin: auto;
 
 }
@@ -46,5 +49,41 @@ body{
    -webkit-box-shadow:0px 0px 107px 23px rgba(227,227,86,0.65);
 -moz-box-shadow: 0px 0px 107px 23px rgba(227,227,86,0.65);
 box-shadow: 0px 0px 107px 23px rgba(227,227,86,0.65);
-border-color: aliceblue;
+
+}
+
+.btn-secondar{
+    background-color: rgb(245, 113, 113);
+}
+
+.btn-secondar:hover{
+    background-color: rgb(245, 113, 113);
+}
+
+.btn-danger{
+    background-color: red;
+}
+
+.btn-seconda{
+    background-color: rgb(238, 247, 123);
+}
+
+.btn-seconda:hover{
+    background-color: rgb(238, 247, 123);
+}
+
+.btn-warning{
+    background-color: rgb(251, 255, 0);
+}
+
+.btn-second{
+    background-color: rgb(122, 255, 122);
+}
+
+.btn-second:hover{
+    background-color: rgb(122, 255, 122);
+}
+
+.btn-success{
+    background-color: rgb(0, 255, 0);
 }
